@@ -3,6 +3,7 @@ crypt elf dynstr or rodata section
 ElfRebuilder.zip -- 源代码
 
 功能描述： 基于init_array的字符串表或rodata节加密。
+
 		此代码包含两部分实现： 1、导出表对应字符串表加密
 							           2、rodata解密
 							   
