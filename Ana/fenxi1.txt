@@ -1,0 +1,328 @@
+Elf path = /cygdrive/d/tmp_test/armeabi/libelfhash.so
+elf path : /cygdrive/d/tmp_test/armeabi/libelfhash.so
+Filesize = 13432 , 0x    3478
+ELF Header:
+Magic:      7F 45 4C 46 01 01 01 00 00 00 00 00 00 00 00 00 
+Class:                             32-bit architecture
+Data:                              2's complement little-endian
+Version:                           1 (current)
+OS/ABI:                            UNIX System V
+ABI Version:                       0
+Type:                              Shared object
+Machine:                           ARM
+Version:                           0x1
+Entry point address:               0x00000000
+Start of program headers:          52 (bytes into file)
+Start of section headers:          12592 (bytes into file)
+Flags:                             0x5000000
+Size of this header:               52 (bytes)
+Size of program headers:           32 (bytes)
+Number of program headers:         7
+Size of section headers:           40 (bytes)
+Number of section headers:         21
+Section header string table index: 20
+Program Headers:
+Program header num 7, offset in file 52, relative offset in mem 2147983156
+There are 7 program headers, starting at offset in file 52
+Type                                         Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+Location of program header itself            0x000034 0x00000034 0x00000034 0x000e0 0x000e0 R   0x0004
+Loadable segment                             0x000000 0x00000000 0x00000000 0x026b4 0x026b4 R E 0x1000
+Loadable segment                             0x002e98 0x00003e98 0x00003e98 0x0016c 0x0016c RW  0x1000
+Dynamic linking information segment          0x002ea4 0x00003ea4 0x00003ea4 0x00100 0x00100 RW  0x0004
+GNU_STACK                                    0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x0000
+ARM EXIDX                                    0x0024d8 0x000024d8 0x000024d8 0x000f0 0x000f0 R   0x0004
+GNU_RELRO                                    0x002e98 0x00003e98 0x00003e98 0x00168 0x00168 RW  0x0004
+Section Headers:
+There are 21 section headers, starting at offset in file 0x00003130,starting at offset relative 0x8007d030:
+[Nr] Name                Type                               Addr     Off    Size   ES Flg Lk Inf Al
+[ 0]                     NULL                               00000000 000000 000000 00     0   0 0
+[ 1] .dynsym             dynamic symbol table section       00000114 000114 000430 10   A 2   1 4
+[ 2] .dynstr             string table section               00000544 000544 00052b 00   A 0   0 1
+[ 3] .hash               symbol hash table section          00000a70 000a70 0001a8 04   A 1   0 4
+[ 4] .rel.dyn            relocation section - no addends    00000c18 000c18 000040 08   A 1   0 4
+[ 5] .rel.plt            relocation section - no addends    00000c58 000c58 000068 08   A 1   6 4
+[ 6] .plt                program defined information        00000cc0 000cc0 0000b0 00  XA 0   0 4
+[ 7] .text               program defined information        00000d70 000d70 001714 00  XA 0   0 4
+[ 8] .ARM.extab          program defined information        00002484 002484 000054 00   A 0   0 4
+[ 9] .ARM.exidx          ARM_EXIDX                          000024d8 0024d8 0000f0 08     7   0 4
+[10] .rodata             program defined information        000025c8 0025c8 0000ec 01     0   0 1
+————————————————————————————————————————————————————————
+[11] .fini_array         Termination function pointers      00003e98 002e98 000008 00  WA 0   0 4
+[12] .init_array         Initialization function pointers   00003ea0 002ea0 000004 00  WA 0   0 1
+[13] .dynamic            dynamic section                    00003ea4 002ea4 000100 08  WA 2   0 4
+[14] .got                program defined information        00003fa4 002fa4 00005c 00  WA 0   0 4
+[15] .data               program defined information        00004000 003000 000004 00  WA 0   0 4
+————————————————————————————————————————————————————————
+[16] .bss                no space section                   00004004 003004 000000 00  WA 0   0 1
+————————————————————————————————————————————————————————
+
+
+无虚拟地址的不会被加载到内存中, 后面紧跟着
+[17] .comment            program defined information        00000000 003004 000026 01     0   0 1
+[18] .note.gnu.gold-versionnote section                     00000000 00302c 00001c 00     0   0 4
+[19] .ARM.attributes     ARM_ATTRIBUTES                     00000000 003048 00002d 00     0   0 1
+[20] .shstrtab           string table section               00000000 003075 0000b8 00     0   0 1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+String table:
+Interpreter:
+Dynamic string table:
+[0  ]  
+[1  ]  __cxa_finalize
+[2  ]  __cxa_atexit
+[3  ]  sayHello
+[4  ]  __android_log_print
+[5  ]  __aeabi_unwind_cpp_pr1
+[6  ]  __aeabi_uidivmod
+[7  ]  JNI_OnLoad
+[8  ]  dlopen
+[9  ]  __errno
+[10 ]  strerror
+[11 ]  dlclose
+[12 ]  __aeabi_unwind_cpp_pr0
+[13 ]  __udivsi3
+[14 ]  __aeabi_uidiv
+[15 ]  __aeabi_idiv0
+[16 ]  __aeabi_ldiv0
+[17 ]  raise
+[18 ]  __gnu_Unwind_Find_exidx
+[19 ]  __aeabi_unwind_cpp_pr2
+[20 ]  __gnu_Unwind_Restore_VFP_D
+[21 ]  __gnu_Unwind_Restore_VFP
+[22 ]  __gnu_Unwind_Restore_VFP_D_16_to_31
+[23 ]  __gnu_Unwind_Restore_WMMXD
+[24 ]  __gnu_Unwind_Restore_WMMXC
+[25 ]  memcpy
+[26 ]  restore_core_regs
+[27 ]  abort
+[28 ]  _Unwind_VRS_Get
+[29 ]  _Unwind_VRS_Set
+[30 ]  __cxa_begin_cleanup
+[31 ]  __cxa_type_match
+[32 ]  __gnu_unwind_execute
+[33 ]  __cxa_call_unexpected
+[34 ]  _Unwind_VRS_Pop
+[35 ]  __gnu_Unwind_Save_VFP_D
+[36 ]  __gnu_Unwind_Save_VFP
+[37 ]  __gnu_Unwind_Save_VFP_D_16_to_31
+[38 ]  __gnu_Unwind_Save_WMMXD
+[39 ]  __gnu_Unwind_Save_WMMXC
+[40 ]  _Unwind_GetCFA
+[41 ]  __gnu_Unwind_RaiseException
+[42 ]  __gnu_Unwind_ForcedUnwind
+[43 ]  __gnu_Unwind_Resume
+[44 ]  __gnu_Unwind_Resume_or_Rethrow
+[45 ]  _Unwind_Complete
+[46 ]  _Unwind_DeleteException
+[47 ]  __gnu_Unwind_Backtrace
+[48 ]  __restore_core_regs
+[49 ]  ___Unwind_RaiseException
+[50 ]  _Unwind_RaiseException
+[51 ]  ___Unwind_Resume
+[52 ]  _Unwind_Resume
+[53 ]  ___Unwind_Resume_or_Rethrow
+[54 ]  _Unwind_Resume_or_Rethrow
+[55 ]  ___Unwind_ForcedUnwind
+[56 ]  _Unwind_ForcedUnwind
+[57 ]  ___Unwind_Backtrace
+[58 ]  _Unwind_Backtrace
+[59 ]  __gnu_unwind_frame
+[60 ]  _Unwind_GetRegionStart
+[61 ]  _Unwind_GetLanguageSpecificData
+[62 ]  _Unwind_GetDataRelBase
+[63 ]  _Unwind_GetTextRelBase
+[64 ]  _edata
+[65 ]  __bss_start
+[66 ]  _end
+[67 ]  liblog.so
+[68 ]  libstdc++.so
+[69 ]  libm.so
+[70 ]  libc.so
+[71 ]  libdl.so
+[72 ]  libelfhash.so
+Dynamic section :
+Tag        Type                                                             Name/Value
+0x00000003 Processor-dependent address                                      0x00003fc0 
+0x00000002 Total size in bytes of PLT relocations                           104 (bytes) 
+0x00000017 Address of PLT relocations                                       0x00000c58 
+0x00000014 Type of relocation used for PLT                                  REL 0x11 
+0x00000011 Address of ElfNN_Rel relocations                                 0x00000c18 
+0x00000012 Total size of ElfNN_Rel relocations                              64 
+0x00000013 Size of each ElfNN_Rel relocation                                8 (bytes) 
+0x6ffffffa number of RELATIVE relocations                                   6 (bytes) 
+0x00000006 Address of symbol table                                          0x00000114 
+0x0000000b Size of each symbol table entry                                  16 (bytes) 
+0x00000005 Address of string table                                          0x00000544 
+0x0000000a Size of string table                                             1323 (bytes) 
+0x00000004 Address of symbol hash table                                     0x00000a70 
+0x00000001 String table offset of a needed shared library                   [ liblog.so ]
+0x00000001 String table offset of a needed shared library                   [ libstdc++.so ]
+0x00000001 String table offset of a needed shared library                   [ libm.so ]
+0x00000001 String table offset of a needed shared library                   [ libc.so ]
+0x00000001 String table offset of a needed shared library                   [ libdl.so ]
+0x0000000e String table offset of shared object name                        [ libelfhash.so ]
+0x0000001a Address of the array of pointers to termination functions        0x00003e98 
+0x0000001c Size in bytes of the array of termination functions              8 (bytes) 
+0x00000019 Address of the array of pointers to initialization functions     0x00003ea0 
+0x0000001b Size in bytes of the array of initialization functions           4 (bytes) 
+0x00000010 Indicates "symbolic" linking. [sup]                              0 
+0x0000001e Object specific flag values                                      SYMBOLIC BIND_NOW 
+0x6ffffffb state flags - see DF_1_* defs                                    Flags: NOW 
+0x00000000 Terminating entry                                                0x0 
+Symbol dyn table :
+Symbol table '.dynsym' contains 67 entries:
+Num:  Value    Size   Type                          Bind                                 Vis       Ndx       Name
+  0:  00000000 0      Unspecified type              Local symbol                         DEFAULT   UNDEF     
+  1:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     __cxa_finalize
+  2:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     __cxa_atexit
+  3:  00000db5 28     Function                      Global symbol                        DEFAULT   .text     sayHello
+  4:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     __android_log_print
+  5:  0000189c 8      Function                      like global - lower precedence       DEFAULT   .text     __aeabi_unwind_cpp_pr1
+  6:  00001030 32     Function                      Global symbol                        DEFAULT   .text     __aeabi_uidivmod
+  7:  00000dd1 440    Function                      Global symbol                        DEFAULT   .text     JNI_OnLoad
+  8:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     dlopen
+  9:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     __errno
+ 10:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     strerror
+ 11:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     dlclose
+ 12:  000018a4 8      Function                      Global symbol                        DEFAULT   .text     __aeabi_unwind_cpp_pr0
+ 13:  00000f88 168    Function                      Global symbol                        DEFAULT   .text     __udivsi3
+ 14:  00000f88 0      Function                      Global symbol                        DEFAULT   .text     __aeabi_uidiv
+ 15:  00001050 16     Function                      like global - lower precedence       DEFAULT   .text     __aeabi_idiv0
+ 16:  00001050 16     Function                      like global - lower precedence       DEFAULT   .text     __aeabi_ldiv0
+ 17:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     raise
+ 18:  00000000 0      Function                      like global - lower precedence       DEFAULT   UNDEF     __gnu_Unwind_Find_exidx
+ 19:  00001894 8      Function                      like global - lower precedence       DEFAULT   .text     __aeabi_unwind_cpp_pr2
+ 20:  00001e60 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Restore_VFP_D
+ 21:  00001e50 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Restore_VFP
+ 22:  00001e70 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Restore_VFP_D_16_to_31
+ 23:  00001e80 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Restore_WMMXD
+ 24:  00001f08 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Restore_WMMXC
+ 25:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     memcpy
+ 26:  00001e3c 20     Function                      Global symbol                        DEFAULT   .text     restore_core_regs
+ 27:  00000000 0      Function                      Global symbol                        DEFAULT   UNDEF     abort
+ 28:  00001424 68     Function                      Global symbol                        DEFAULT   .text     _Unwind_VRS_Get
+ 29:  00001490 68     Function                      Global symbol                        DEFAULT   .text     _Unwind_VRS_Set
+ 30:  00000000 0      Unspecified type              like global - lower precedence       DEFAULT   UNDEF     __cxa_begin_cleanup
+ 31:  00000000 0      Unspecified type              like global - lower precedence       DEFAULT   UNDEF     __cxa_type_match
+ 32:  0000203c 916    Function                      Global symbol                        DEFAULT   .text     __gnu_unwind_execute
+ 33:  00000000 0      Unspecified type              like global - lower precedence       DEFAULT   UNDEF     __cxa_call_unexpected
+ 34:  000018ac 856    Function                      Global symbol                        DEFAULT   .text     _Unwind_VRS_Pop
+ 35:  00001e68 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Save_VFP_D
+ 36:  00001e58 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Save_VFP
+ 37:  00001e78 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Save_VFP_D_16_to_31
+ 38:  00001ec4 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Save_WMMXD
+ 39:  00001f1c 0      Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Save_WMMXC
+ 40:  00001c04 8      Function                      Global symbol                        DEFAULT   .text     _Unwind_GetCFA
+ 41:  00001c0c 164    Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_RaiseException
+ 42:  00001cb0 28     Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_ForcedUnwind
+ 43:  00001ccc 108    Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Resume
+ 44:  00001d38 32     Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Resume_or_Rethrow
+ 45:  00001d58 4      Function                      Global symbol                        DEFAULT   .text     _Unwind_Complete
+ 46:  00001d5c 32     Function                      Global symbol                        DEFAULT   .text     _Unwind_DeleteException
+ 47:  00001d7c 192    Function                      Global symbol                        DEFAULT   .text     __gnu_Unwind_Backtrace
+ 48:  00001e3c 20     Function                      Global symbol                        DEFAULT   .text     __restore_core_regs
+ 49:  00001f30 36     Function                      Global symbol                        DEFAULT   .text     ___Unwind_RaiseException
+ 50:  00001f30 36     Function                      Global symbol                        DEFAULT   .text     _Unwind_RaiseException
+ 51:  00001f54 36     Function                      Global symbol                        DEFAULT   .text     ___Unwind_Resume
+ 52:  00001f54 36     Function                      Global symbol                        DEFAULT   .text     _Unwind_Resume
+ 53:  00001f78 36     Function                      Global symbol                        DEFAULT   .text     ___Unwind_Resume_or_Rethrow
+ 54:  00001f78 36     Function                      Global symbol                        DEFAULT   .text     _Unwind_Resume_or_Rethrow
+ 55:  00001f9c 36     Function                      Global symbol                        DEFAULT   .text     ___Unwind_ForcedUnwind
+ 56:  00001f9c 36     Function                      Global symbol                        DEFAULT   .text     _Unwind_ForcedUnwind
+ 57:  00001fc0 36     Function                      Global symbol                        DEFAULT   .text     ___Unwind_Backtrace
+ 58:  00001fc0 36     Function                      Global symbol                        DEFAULT   .text     _Unwind_Backtrace
+ 59:  000023d0 64     Function                      Global symbol                        DEFAULT   .text     __gnu_unwind_frame
+ 60:  00002410 44     Function                      Global symbol                        DEFAULT   .text     _Unwind_GetRegionStart
+ 61:  0000243c 56     Function                      Global symbol                        DEFAULT   .text     _Unwind_GetLanguageSpecificData
+ 62:  00002474 8      Function                      Global symbol                        DEFAULT   .text     _Unwind_GetDataRelBase
+ 63:  0000247c 8      Function                      Global symbol                        DEFAULT   .text     _Unwind_GetTextRelBase
+ 64:  00004004 0      Unspecified type              Global symbol                        DEFAULT   ABS       _edata
+ 65:  00004004 0      Unspecified type              Global symbol                        DEFAULT   ABS       __bss_start
+ 66:  00004004 0      Unspecified type              Global symbol                        DEFAULT   ABS       _end
+Relocation section '.rel.dyn' at offset 0x00000c18 contains 8 entries:
+Offset     Info     Type           Sym.Value  Sym. Name
+0x00003e98 00000017 R_ARM_RELATIVE 
+0x00003fa8 00000017 R_ARM_RELATIVE 
+0x00003fac 00000017 R_ARM_RELATIVE 
+0x00003fb0 00000017 R_ARM_RELATIVE 
+0x00003fb4 00000017 R_ARM_RELATIVE 
+0x00003fb8 00000017 R_ARM_RELATIVE 
+0x00003fa4 00001215 R_ARM_GLOB_DAT 00000000   __gnu_Unwind_Find_exidx
+0x00003fbc 00002115 R_ARM_GLOB_DAT 00000000   __cxa_call_unexpected
+Relocation section '.rel.plt' at offset 0x00000c58 contains 13 entries:
+Offset     Info     Type           Sym.Value  Sym. Name
+0x00003fcc 00000216 R_ARM_JUMP_SLOT 00000000 __cxa_atexit
+0x00003fd0 00000116 R_ARM_JUMP_SLOT 00000000 __cxa_finalize
+0x00003fd4 00000416 R_ARM_JUMP_SLOT 00000000 __android_log_print
+0x00003fd8 00000816 R_ARM_JUMP_SLOT 00000000 dlopen
+0x00003fdc 00000916 R_ARM_JUMP_SLOT 00000000 __errno
+0x00003fe0 00000a16 R_ARM_JUMP_SLOT 00000000 strerror
+0x00003fe4 00000b16 R_ARM_JUMP_SLOT 00000000 dlclose
+0x00003fe8 00001116 R_ARM_JUMP_SLOT 00000000 raise
+0x00003fec 00001216 R_ARM_JUMP_SLOT 00000000 __gnu_Unwind_Find_exidx
+0x00003ff0 00001916 R_ARM_JUMP_SLOT 00000000 memcpy
+0x00003ff4 00001b16 R_ARM_JUMP_SLOT 00000000 abort
+0x00003ff8 00001e16 R_ARM_JUMP_SLOT 00000000 __cxa_begin_cleanup
+0x00003ffc 00001f16 R_ARM_JUMP_SLOT 00000000 __cxa_type_match
+Section Headers:
+There are 21 section headers, starting at offset in file 0x00003130,starting at offset relative 0x8007d030:
+[Nr] Name                Type                               Addr     Off    Size   ES Flg Lk Inf Al
+[ 0]                     NULL                               00000000 000000 000000 00     0   0 0
+[ 1] .dynsym             dynamic symbol table section       00000114 000114 000430 10   A 2   1 4
+[ 2] .dynstr             string table section               00000544 000544 00052b 00   A 0   0 1
+[ 3] .hash               symbol hash table section          00000a70 000a70 0001a8 04   A 1   0 4
+[ 4] .rel.dyn            relocation section - no addends    00000c18 000c18 000040 08   A 1   0 4
+[ 5] .rel.plt            relocation section - no addends    00000c58 000c58 000068 08   A 1   6 4
+[ 6] .plt                program defined information        00000cc0 000cc0 0000b0 00  XA 0   0 4
+[ 7] .text               program defined information        00000d70 000d70 001714 00  XA 0   0 4
+[ 8] .ARM.extab          program defined information        00002484 002484 000054 00   A 0   0 4
+[ 9] .ARM.exidx          ARM_EXIDX                          000024d8 0024d8 0000f0 08     7   0 4
+[10] .rodata             program defined information        000025c8 0025c8 0000ec 01     0   0 1
+[11] .fini_array         Termination function pointers      00003e98 002e98 000008 00  WA 0   0 4
+[12] .init_array         Initialization function pointers   00003ea0 002ea0 000004 00  WA 0   0 1
+[13] .dynamic            dynamic section                    00003ea4 002ea4 000100 08  WA 2   0 4
+[14] .got                program defined information        00003fa4 002fa4 00005c 00  WA 0   0 4
+[15] .data               program defined information        00004000 003000 000004 00  WA 0   0 4
+[16] .bss                no space section                   00004004 003004 000000 00  WA 0   0 1
+[17] .comment            program defined information        00000000 003004 000026 01     0   0 1
+[18] .note.gnu.gold-versionnote section                       00000000 00302c 00001c 00     0   0 4
+[19] .ARM.attributes     ARM_ATTRIBUTES                     00000000 003048 00002d 00     0   0 1
+[20] .shstrtab           string table section               00000000 003075 0000b8 00     0   0 1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+Got info ,got.plt :
+Addr         Off          Value
+
+Got info ,got :
+Addr         Off          Value
+00003fa4     00002fa4     00000000
+00003fa8     00002fa8     000025c8
+00003fac     00002fac     000024d8
+00003fb0     00002fb0     000018a4
+00003fb4     00002fb4     0000189c
+00003fb8     00002fb8     00001894
+00003fbc     00002fbc     00000000
+00003fc0     00002fc0     00000000
+00003fc4     00002fc4     00000000
+00003fc8     00002fc8     00000000
+00003fcc     00002fcc     00000cc0
+00003fd0     00002fd0     00000cc0
+00003fd4     00002fd4     00000cc0
+00003fd8     00002fd8     00000cc0
+00003fdc     00002fdc     00000cc0
+00003fe0     00002fe0     00000cc0
+00003fe4     00002fe4     00000cc0
+00003fe8     00002fe8     00000cc0
+00003fec     00002fec     00000cc0
+00003ff0     00002ff0     00000cc0
+00003ff4     00002ff4     00000cc0
+00003ff8     00002ff8     00000cc0
+00003ffc     00002ffc     00000cc0
+
+end   ............................................................................................

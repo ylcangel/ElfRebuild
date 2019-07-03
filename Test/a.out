@@ -1,0 +1,123 @@
+[**] begin to exec protector
+[**] optarg = dynstr
+[**] enc type = 0
+[**] input file name = libelfhash.so, output file name = libelfhash.so.1
+[**] mmap file in shem
+[**] mmap file in shem addr = 0x80079d98, file length = 42440
+[*] dyn sym addr = 0x00000114, sym tab size = 4192, entry size = 262
+[*] dyn str addr = 0x00001174
+[*] old .init_array size = 16
+[*] init array count = 4
+[+] old init array len in mem = 16
+[+] init array off in file = 0x000097d8
+[*] old rel dyn size = 00000a88
+[*] new rel dyn size = 00000a90
+[*] bss off = 0x0000a0f4, addr = 0x0000b0f4, size = 0x00000024
+[**] alloc ElfEncDynstrBuilder
+[*] dynstr size = 3187
+[*] bss off = 0x0000a0f4, new init array off = 0x0000a128, add size = 52
+[*] new init array len in mem = 20
+[*] new init array tail off = 0x0000a13c
+[*] align4 off = 0x0000a13c
+[*] new reldyn off = 0x0000a14c
+[+] shell code size = 116
+[*] new dynstr shell code size = 136
+[*] bss shdr size = 36
+[*] bss shdr align4 size = 36
+[*] add 16 bit size = 52
+[*] add new init array size = 72
+[*] align4 size = 72
+[*] add 16 bit size = 88
+[*] old reldyn size = 2696, count = 337
+[*] new reldyn size = 2704, count = 338
+[*] add new rel dyn size = 2792
+[*] align4 size = 2792
+[*] add 16 bit size = 2808
+[*] add dynstr size = 5995
+[*] align4 size = 5996
+[*] add 16 bit size = 6012
+[*] add shell size = 6148
+[*] align 4 = 6148
+[*] add 32 bit size = 6180
+[*] added size = 6180, align4 added size = 6180
+[*] new reldyn tail off = 0x0000abdc
+[*] align4 off = 0x0000abdc
+[*] new dynstr off = 0x0000abec
+[*] new dynstr tail off = 0x0000abec
+[*] align4 offset = 0x0000b860
+[*] add 16 bit off = 0x0000b870
+[*] mem addr - file off = 0x00001000
+[*] vaddr = 0x00001000, shellcode off = 0x0000c870
+[*] set shell code addr = 0x0000c870
+[*] set new dynstr addr = 0x0000bbec
+[*] set old dynstr addr = 0x00001174
+[*] set dynstr len = 0x00000c73
+[*] param dynstraddr = 0x0000bbec
+[*] param dynstrlen = 0x00000c73
+[*] param olddynstraddr = 0x00001174
+[*] param shellcodeaddr = 0x0000c870
+[*] append data after shell code
+[++] begin to rebuild
+[*] begin to build new section
+[*] fill bss section success
+[*] shell code addr = 0x0000c870
+[*] add new init array ptr = 0x0000c870
+[*] add new init array len = 4
+[*] fill new init array data success
+[*] new init array size = 20, init array step = 20
+[*] after init array, fill 16 bits 0
+[*] begin to fill new reldyn
+[*] REL init array off = 0x0000b128
+[*] old init array vm addr = 0x0000a7d8
+[*] reldyn elements size = 338
+[*] REL old init_array [0] r_offset = 0x0000a7d8
+[*] REL new init_array [0] r_offset = 0x0000b12c
+[*] REL old init_array [1] r_offset = 0x0000a7dc
+[*] REL new init_array [1] r_offset = 0x0000b130
+[*] REL old init_array [2] r_offset = 0x0000a7e0
+[*] REL new init_array [2] r_offset = 0x0000b134
+[*] new rel.dyn size = 2704, step = 2704
+[*] end   to fill new reldyn
+[*] begin to fill new dynstr
+[*] end   to fill new dynstr
+[*] begin to fill new shellcode
+[*] end   to fill new shellcode
+[*] old ehdr e_shoff = 0x0000a230
+[*] new ehdr e_shoff = 0x0000ba54
+[*] old bss sh_type = 0x00000008
+[*] new bss sh_type = 0x00000001
+[*] .comment section sh_offset = 0x0000a0f4
+[*] .comment after section sh_offset = 0x0000b918
+[*] .note.gnu.gold-version section sh_offset = 0x0000a11c
+[*] .note.gnu.gold-version after section sh_offset = 0x0000b940
+[*] .ARM.attributes section sh_offset = 0x0000a138
+[*] .ARM.attributes after section sh_offset = 0x0000b95c
+[*] .shstrtab section sh_offset = 0x0000a165
+[*] .shstrtab after section sh_offset = 0x0000b989
+[*] old init array = 0x000097d8
+[*] new init array = 0x0000a128
+[*] init array added = 0x00000950
+[*] old init array sh_addr = 0x0000a7d8, sh_off = 0x000097d8, sh_size = 16
+[*] new init array sh_addr = 0x0000b128, sh_off = 0x0000a128, sh_size = 20
+[*] dynamic old init array ptr = 0x0000a7d8, size = 16
+[*] dynamic new init array ptr = 0x0000b128, size = 20
+[*] reldyn added = 0x00007c30
+[*] old rel dyn sh_addr = 0x0000251c, sh_off = 0x0000251c, sh_size = 2696
+[*] new rel dyn sh_addr = 0x0000b14c, sh_off = 0x0000a14c, sh_size = 2704
+[*] old dynamic, reldyn off = 0x0000251c
+[*] new dynamic, reldyn off = 0x0000b14c
+[*] old dynamic, reldyn size = 0x00000a88
+[*] new dynamic, reldyn size = 0x00000a90
+[*] dynstr added = 0x00009a78
+[*] old dynstr sh_addr = 0x00001174, sh_off = 0x00001174
+[*] new dynstr sh_addr = 0x0000bbec, sh_off = 0x0000abec
+[*] old dynamic, dynstr off = 0x00001174
+[*] new dynamic, dynstr off = 0x0000bbec
+[*] phdr pt_load2 info: off = 0x000097d0, virtAddr = 0x0000a7d0, physAddr = 0x0000a7d0, fileSiz = 0x00000924, memSiz = 0x00000948, flg = 00000006
+[*] phdr pt_load2 add =0x00001824
+[*] phdr after pt_load2 info: off = 0x000097d0, virtAddr = 0x0000a7d0, physAddr = 0x0000a7d0, fileSiz = 0x00002148, memSiz = 0x0000216c, flg = 00000007
+[*] old file size = 42440, new file size = 48620
+[*] align4 fill size = 48620, fill 0 size = 0 
+[++] end   to rebuild
+[**] release file in shem
+[**] end to exec protector
